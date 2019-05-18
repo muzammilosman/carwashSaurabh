@@ -603,7 +603,6 @@ ul {
 /*----------------------------------------------------*/
 /* line 2, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_banner.scss */
 .home_banner_area {
-  background: url(../img/banner/blur-close-up-dewdrops-248395.jpg) no-repeat center top;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -618,7 +617,6 @@ ul {
 
 /* line 10, /Applications/MAMP/htdocs/naim/color-lib/160 lagoon Logistics/scss/_banner.scss */
 .home_banner_area.banner-area {
-  background: url(../img/banner/blur-close-up-dewdrops-248395.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -5240,4 +5238,39 @@ h6 {
 
 .stats-box{
   text-align: center;
+}
+
+.carousel img{
+  height: 800px;
+}
+
+.scontent{
+  color: white;
+  background: black;
+  opacity: 0.8;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 5% 5%;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.slider-full{
+  background-size: auto;
+  height: 800px;
+  width: 1350px;
+}
+
+.slider-mc{
+  margin-top: 40px;
+  padding: 5% 5%;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
